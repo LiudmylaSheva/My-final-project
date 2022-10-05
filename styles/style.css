@@ -1,8 +1,8 @@
 :root {
-	--main-branding-color: #827397;
-	--primary-color: #e8d4c9;
-	--secondary-color: #4d4c7d;
-	--text-color: #363062;
+	--main-branding-color: #dfd3c3;
+	--primary-color: #f8ede3;
+	--secondary-color: #dfd3c3;
+	--text-color: #7d6e83;
 	--heading-font: "Bebas Neue", cursive;
 	--main-font: "Nunito", sans-serif;
 }
@@ -11,6 +11,52 @@ body {
 	font-family: var(--main-font);
 	color: var(--text-color);
 	font-size: 20px;
-	background-image: radial-gradient(#4d4c7d 0.8px, rgb(232, 212, 201) 0.2px);
+	background-image: radial-gradient(#dfd3c3 0.8px, #f8ede3 0.2px);
 	background-size: 18px 18px;
+}
+
+h1 {
+	color: var(--text-color);
+	font-family: var(--heading-font);
+	font-size: 50px;
+}
+
+h2 {
+	color: rgb(54, 48, 98, 0.9);
+	font-family: var(--heading-font);
+	font-size: 35px;
+}
+
+p {
+	text-align: justify;
+}
+
+.main-head {
+	background-color: var(--main-branding-color);
+	text-align: center;
+	padding: 70px 10px;
+	border-radius: 8px;
+}
+
+.main-par {
+	font-size: 30px;
+	color: rgb(125, 110, 131, 0.8);
+	margin-bottom: 60px;
+}
+
+.lear-more-button {
+	background-color: var(--text-color);
+	color: var(--main-branding-color);
+	font-weight: bold;
+	border-radius: 6px;
+	padding: 15px 10px;
+	border: solid 1px #7d6e83;
+	transition: all 400ms ease-in-out;
+	text-decoration: none;
+}
+
+.lear-more-button:hover {
+	background-color: var(--text-color);
+	color: var(--primary-color);
+	border: solid 1px #dfd3c3;
 }
