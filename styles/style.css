@@ -1,8 +1,16 @@
 :root {
 	--main-branding-color: #827397;
-	--primary-color: #e9d5ca;
+	--primary-color: #e8d4c9;
 	--secondary-color: #4d4c7d;
 	--text-color: #363062;
 	--heading-font: "Bebas Neue", cursive;
 	--main-font: "Nunito", sans-serif;
+}
+
+body {
+	font-family: var(--main-font);
+	color: var(--text-color);
+	font-size: 20px;
+	background-image: radial-gradient(#4d4c7d 0.8px, rgb(232, 212, 201) 0.2px);
+	background-size: 18px 18px;
 }
