@@ -131,6 +131,17 @@ p {
 	text-align: justify;
 }
 
+span {
+	margin-left: 5px;
+}
+
+footer h2 {
+	font-size: 20px;
+	font-family: var(--main-font);
+	font-weight: bold;
+	text-align: center;
+}
+
 .lear-more-button {
 	background-color: var(--text-color);
 	color: var(--main-branding-color);

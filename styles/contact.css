@@ -151,6 +151,13 @@ span {
 	margin-left: 5px;
 }
 
+footer h2 {
+	font-size: 20px;
+	font-family: var(--main-font);
+	font-weight: bold;
+	text-align: center;
+}
+
 .navbar {
 	max-width: 100%;
 	background-color: var(--main-branding-color);
