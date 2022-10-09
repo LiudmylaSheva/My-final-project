@@ -169,3 +169,11 @@ p {
 .info-pj-p {
 	margin-top: 20px;
 }
+
+.navbar {
+	max-width: 100%;
+	background-color: var(--main-branding-color);
+	font-family: var(--main-font);
+	color: var(--text-color);
+	font-weight: bold;
+}
