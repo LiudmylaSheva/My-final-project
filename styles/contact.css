@@ -152,9 +152,11 @@ span {
 }
 
 .navbar {
-	background-color: var(--primary-color);
-	font-family: var(--main-font);
 	max-width: 100%;
+	background-color: var(--main-branding-color);
+	font-family: var(--main-font);
+	color: var(--text-color);
+	font-weight: bold;
 }
 
 .lear-more-button {
