@@ -131,19 +131,6 @@ p {
 	text-align: justify;
 }
 
-.main-head {
-	background-color: var(--main-branding-color);
-	text-align: center;
-	padding: 70px 10px;
-	border-radius: 8px;
-}
-
-.main-par {
-	font-size: 30px;
-	color: rgb(125, 110, 131, 0.8);
-	margin-bottom: 60px;
-}
-
 .lear-more-button {
 	background-color: var(--text-color);
 	color: var(--main-branding-color);
@@ -161,7 +148,7 @@ p {
 	border: solid 1px #dfd3c3;
 }
 
-.project-img {
+.profile-img {
 	max-width: 80%;
 	display: block;
 	margin: 0 auto;
