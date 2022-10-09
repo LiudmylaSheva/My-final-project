@@ -147,6 +147,16 @@ p {
 	text-align: justify;
 }
 
+span {
+	margin-left: 5px;
+}
+
+.navbar {
+	background-color: var(--primary-color);
+	font-family: var(--main-font);
+	max-width: 100%;
+}
+
 .lear-more-button {
 	background-color: var(--text-color);
 	color: var(--main-branding-color);
