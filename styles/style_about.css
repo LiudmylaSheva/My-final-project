@@ -142,6 +142,15 @@ footer h2 {
 	text-align: center;
 }
 
+footer a {
+	color: rgb(54, 48, 98, 0.9);
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: var(--text-color);
+}
+
 .lear-more-button {
 	background-color: var(--text-color);
 	color: var(--main-branding-color);
